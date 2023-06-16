@@ -32,12 +32,21 @@ I continue to review my previous code to produce a summarized standard pipeline.
 - Ran a test on Cedar of 1hour - 8cpus - 80GB for the main bactopia pipeline using only three samples
 - To run jobs in eagle, remember that the maximum amount of memory available per node is 120 GB
 
-## To request an interactive allocation use the following code 
+## 20230614 - Testing nf-seqqc
 
-```sh
-salloc \
-    --time=0:45:0 \
-    --cpus-per-task=8 \
-    --mem 8G \
-    --account=rrg-whsiao-ab
-```
+I used a sample of 6 isolates to troubleshoot and demonstrate the CIDGOH nf-seqqc pipeline.
+    - The file was saved in the `processed_data` subfolder, and I created a backup called `backup_pilot.csv`
+
+Found a couple of issues as reported before:
+- The process to check the input samplesheet produces an error by failing to recognize the header of the `.csv`
+- The database for **confindr** must be updated in the `nextflow.config`. Databases for **minikraken2**, **centrifuge**, and the **reference_genome** for dehosting
+- Even after updating the PATH to the database, `confindr` produces errors while running. For now, I skip it. 
+
+Additions to config;
+- Specified the amount of resources to allocate for every process depending on the label of requirements given by nf-core. 
+    Before that, processes like `SHOVILL` were failling due to limited ram capacity. 
+- Also, it is necessary to specify a download folder to save customized or automatically downloaded busco lineages. Must be added
+    to the config file. 
+
+
+

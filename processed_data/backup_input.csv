@@ -1,0 +1,7 @@
+sample,fastq_1,fastq_2
+sample1,/home/mdprieto/mdprieto_projects/raw_data/qatar_kleb_isolates_2022/C12_S22_L001_R1_001.fastq.gz,/home/mdprieto/mdprieto_projects/raw_data/qatar_kleb_isolates_2022/C12_S22_L001_R2_001.fastq.gz
+sample2,/home/mdprieto/mdprieto_projects/raw_data/qatar_kleb_isolates_2022/C19_S18_L001_R1_001.fastq.gz,/home/mdprieto/mdprieto_projects/raw_data/qatar_kleb_isolates_2022/C19_S18_L001_R2_001.fastq.gz
+sample3,/home/mdprieto/mdprieto_projects/raw_data/qatar_kleb_isolates_2022/CP19_S19_L001_R1_001.fastq.gz,/home/mdprieto/mdprieto_projects/raw_data/qatar_kleb_isolates_2022/CP19_S19_L001_R2_001.fastq.gz
+sample4,/home/mdprieto/mdprieto_projects/raw_data/qatar_kleb_isolates_2022/CP1_S1_L001_R1_001.fastq.gz,/home/mdprieto/mdprieto_projects/raw_data/qatar_kleb_isolates_2022/CP1_S1_L001_R2_001.fastq.gz
+sample5,/home/mdprieto/mdprieto_projects/raw_data/qatar_kleb_isolates_2022/CP28_S4_L001_R1_001.fastq.gz,/home/mdprieto/mdprieto_projects/raw_data/qatar_kleb_isolates_2022/CP28_S4_L001_R2_001.fastq.gz
+sample6,/home/mdprieto/mdprieto_projects/raw_data/qatar_kleb_isolates_2022/CP22R_S13_L001_R1_001.fastq.gz,/home/mdprieto/mdprieto_projects/raw_data/qatar_kleb_isolates_2022/CP22R_S13_L001_R2_001.fastq.gz
